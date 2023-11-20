@@ -1,8 +1,25 @@
-# React + Vite
+# TERRIBLY TINY TALES
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+Created a Profile Page For TERRIBLY TINY TALES.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- .
+
+## Getting Started
+
+Guide users on how to set up and run your project locally.
+
+### Prerequisites
+
+List any software or tools that users need to have installed before they can use your project.
+
+### Installation
+
+Provide step-by-step instructions on how to install your project.
+
+```bash
+# Example installation steps
+npm install
