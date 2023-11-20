@@ -29,4 +29,4 @@ Created a Profile Page For TERRIBLY TINY TALES using ReactJS + JavaScript.
   - In Mobile Screen
       -![image](https://github.com/Ritik1431/TTT/assets/94741846/213aa07b-20c0-4023-88ef-75b74c38aac2)
 
-# Thank you for taking the time to explore my React project. I hope you find it useful and informative.
+# ***Thank you for taking the time to explore my React project. I hope you find it useful and informative.***
