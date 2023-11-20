@@ -1,0 +1,82 @@
+.container3{
+    height: 100%;
+    margin-top: 4rem;
+    width: 100%;
+    .top{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        .count{
+            @media screen and (max-width: 767px){
+                width: 4.2rem;
+                font-size: 1rem;
+                font-weight: bold;
+                
+            }
+            justify-content: center;
+            width: 7rem;
+            padding-left: 1.2rem;
+            color:rgb(77,162,225);
+            font-size: 1.3rem;
+            font-weight: bold;
+
+            padding-top: 5px;
+            border-top: 1px solid rgb(100, 94, 94);
+            border-right: 1px solid rgb(100, 94, 94);
+        }
+        .empty{
+            width: 100%;
+            height: 100%;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(100, 94, 94);
+        }
+    }
+    .postview{
+        margin-top: 2rem;
+        width: 100%;
+        border-bottom: 1px solid rgb(100, 94, 94);
+        @media screen and (max-width: 767px){
+            width: 100%;
+        }
+        .postheading{
+            @media screen and (max-width: 767px){
+
+                font-size: 1.5rem;
+                width: 90%;
+            }
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            width: 97%;
+
+        }
+        .postcontent{
+            @media screen and (max-width: 767px){
+                font-size: 1.2rem;
+                width: 90%;
+            }
+            font-size: 1.5rem;
+            width: 100%;
+            margin-left: 2rem;
+            width: 97%;
+        }
+        .by{
+            @media screen and (max-width: 767px){
+                font-size: 0.8rem;
+                width: 90%;
+            }
+            margin-left: 2rem;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            width: 97%;
+            .time{
+                margin-right: 2rem;
+                
+            }
+        }
+    }
+}

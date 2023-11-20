@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container1 {
+  height: 8.5vh;
+  font-size: 1rem;
+  color: white;
+  width: 100%;
+  img {
+    height: 4rem;
+    width: 4rem;
+  }
+  .header {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .sp1 {
+      color: rgb(181, 181, 34);
+      font-size: 2rem;
+      margin-top: 12px;
+      height: 3rem;
+    }
+    .sp2{
+      height: 2.5rem;
+      font-size: 1.3rem;
+      margin-top: 22px;
+      margin-left: 4px;
+      margin-right: auto;
+    }
+    .button{
+      height: 4rem;
+      margin-right: 15px;
+    }
+    button{
+      font-size: 1rem;
+      padding: 8px;
+      margin-top: 0.8rem;
+      margin-right: 1rem;
+      background-color: rgb(197, 197, 31);
+      font-weight: bold;
+      border-radius: 7px;
+      border: none;
+      transition: background-color 0.5s ease;
+    }
+    button:hover {
+      background-color: rgb(227, 227, 227); /* Darker green */
+      cursor: pointer;     
+      }
+      
+  }
+  
+}
+@media screen and (max-width: 767px){
+    .container1{
+      width: 100%;
+    }
+  }
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container1{
+      img{
+        height: 5rem;
+        width: 5rem;
+      }
+      .header{
+        .sp1{
+        font-size: 2.8rem;
+        }
+        .sp2{
+          font-size: 2.1rem;
+        }
+        button{
+          margin-top: 19px;
+          font-size: 1.5rem;
+        }
+      }
+      
+    }
+    
+  }

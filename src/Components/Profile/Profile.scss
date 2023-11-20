@@ -1,0 +1,194 @@
+@media screen and (max-width: 767px){
+    .container2{
+      width: 100%;
+    }
+    
+  }
+.container2 {
+  background-color: white;
+  height: 100%;
+  .back {
+    img {
+      width: 100%;
+      height: 20vh;
+      @media screen and (max-width: 767px) {
+        // Mobile
+        /* Styles for small screens */
+        height: 25vh;
+      }
+      @media screen and (min-width: 992px) {
+        // Desktop
+        height: 50vh;
+      }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        // Tablets
+        height: 30vh;
+      }
+    }
+  }
+  .front {
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    img {
+      width: 13rem;
+      height: 25vh;
+      border-radius: 50%;
+      border: 2px solid black;
+      margin-left: 5rem;
+      @media screen and (min-width: 992px) {
+        // Desktop
+        height: 50vh;
+        width: 25rem;
+      }
+      @media screen and (min-width: 768px) and (max-width: 991px){
+        height: 17vh;
+      }
+    }
+    display: flex;
+    // justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 10vh;
+    @media screen and (max-width: 767px) {
+      // Mobile
+      img {
+        margin-left: 2rem;
+        height: 16vh;
+        width: 17vh;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .info {
+    @media screen and (min-width: 992px){
+       margin-left: 5rem;
+       margin-top: 2rem;
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px){
+      margin-left: 2rem;
+    }
+    @media screen and (max-width: 767px){
+      
+    }
+    .name {
+      @media screen and (min-width: 992px){
+        margin-top: 2rem;
+        font-size: 2rem;
+      }
+      @media screen and (min-width: 768px) and (max-width: 991px){
+        font-size: 1.7rem;
+    }
+    @media screen and (max-width: 767px){
+      font-size: 16px;
+    }
+      margin-left: 2rem;
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      height: 5vh;
+
+      svg{
+        margin-top: 5%;
+        padding-top: 2px;
+        color: rgb(77,162,225);
+      }
+    }
+    .foll {
+      
+      @media screen and (min-width: 992px){
+        margin-top: 2rem;
+        font-size: 2rem;
+      }
+      @media screen and (min-width: 768px) and (max-width: 991px){
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+      display: flex;
+      margin-top: 0.5rem;
+      .followers {
+        margin-left: 1.5rem;
+        color: black;
+        .followers-box {
+          color: rgb(132, 131, 131);
+          display: flex;
+          justify-content: center; /* Center the content horizontally */
+          align-items: center;
+          border: 1px solid rgb(132, 131, 131);
+          border-radius: 5px;
+        }
+        .followers-text{
+          color: rgb(132, 131, 131);
+        }
+      }
+      .following {
+        color: black;
+        margin-left: 1.5rem;
+        .following-box {
+          display: flex;
+          justify-content: center; /* Center the content horizontally */
+          align-items: center;
+          color: rgb(132, 131, 131);
+          border: 1px solid rgb(132, 131, 131);
+          border-radius: 5px;
+        }
+        .following-text{
+          color: rgb(132, 131, 131);
+        }
+        
+      }
+    }
+  }
+  .details{
+    background-color: white;
+    @media screen and (max-width: 767px){
+      // mobile
+      margin-top: 3rem;
+      margin-left: 2rem;
+    }
+    @media screen and (min-width: 992px) {
+        // Desktop
+        margin-top: 10rem;
+        font-size: 2rem;
+        margin-left: 30rem;
+      }
+    @media screen and (min-width: 768px) and (max-width: 991px){
+      margin-top: 5rem;
+      margin-left: 9rem;
+      font-size: 1.6rem;
+    }
+    .pos{
+      color: black;
+    }
+    .link{
+      color: rgb(77,162,225);
+    }
+    .link:hover{
+      cursor: pointer;
+    }
+    .icons{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-right: 10px;
+      border-radius: 50%;
+      svg{
+        font-size: 1.3rem;
+        align-items: center;
+        justify-content: center;
+      }
+      .star{
+        color: rgb(77,162,225);
+      }
+      .heart{
+        color: rgb(247, 139, 157);
+      }
+      .eye{
+        color: gray;
+      }
+      .thumb{
+        color: orange;
+      }
+    }
+  }
+}
+
