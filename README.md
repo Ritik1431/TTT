@@ -16,7 +16,7 @@ Created a Profile Page For TERRIBLY TINY TALES using ReactJS + JavaScript.
       ### Note
         -If any case scss does't work try using 'npm install -D sass' in terminal.
   ## Netlify Link
-  -[https://github.com/Ritik1431/TTT](https://ritik-ttt.netlify.app/)
+  -[(https://ritik-ttt.netlify.app/)](https://ritik-ttt.netlify.app/)
 ## Profile data is hardcoded in a local JSON
   -![image](https://github.com/Ritik1431/TTT/assets/94741846/e9063f5d-d4c8-452e-a185-a7df93ea15c8)
 
