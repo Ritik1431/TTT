@@ -49,7 +49,14 @@
             margin-bottom: 2rem;
             margin-left: 2rem;
             width: 97%;
-
+            svg{
+                font-size: 1.1rem;
+                color: rgb(181, 181, 34);
+                float: right;
+            }
+            svg:hover{
+                cursor: pointer;
+            }
         }
         .postcontent{
             @media screen and (max-width: 767px){
